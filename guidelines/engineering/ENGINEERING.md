@@ -325,7 +325,7 @@ var homeDir = Environment.GetEnvironmentVariable("USERPROFILE")
                   ?? Environment.GetEnvironmentVariable("HOME");
 ```
 
-Keep in mind that wherever possible environment variables should be accessed via the configuration system in .NET Core (https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.0) by enabling the appropriate [configuration provider](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.0#environment-variables-configuration-provider).
+Keep in mind that wherever possible environment variables should be accessed via the [configuration system](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.0) in .NET Core by enabling the appropriate [configuration provider](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.0#environment-variables-configuration-provider).
 
 #### File path separators
 
