@@ -22,9 +22,7 @@ All source code files require this exact header (please do not make any changes 
 
 It is ok to skip it on generated files, such as `*.designer.cs`.
 
-Every repo also needs the Apache 2.0 License in a file called LICENSE.txt in the root of the repo. Please use only identical copies to what we have in other repos.
-
-(There are some exceptions to this, but they need to be approved by @cag)
+Every repo also needs the Apache 2.0 License in a file called LICENSE.txt in the root of the repo. Please use the default version provided by the GitHub "create repository" wizard.
 
 
 ### External dependencies
@@ -46,7 +44,7 @@ The advantages are numerous: improving code quality, more visibility on changes 
 
 In general a PR should be signed off (using GitHub's "approve" feature) by the Subject Matter Expert (SME) of that code. For example, a change to the Banana project should be signed off by `@MrMonkey`, and not by `@MrsGiraffe`. If you don't know the SME, please talk to one of the engineering leads and they will be happy to help you identify the SME. Of course, sometimes it's the SME who is making a change, in which case a secondary person will have to sign off on the change (e.g. `@JuniorMonkey`).
 
-To commit the PR to the repo either use GitHub's "Squash and Merge" button on the main PR page, or do a typical push that you would use with Git (e.g. local pull, rebase, merge, push).
+To commit the PR to the repo either use GitHub's ["Squash and Merge"](https://github.blog/2016-04-01-squash-your-commits/) button on the main PR page, or do a typical push that you would use with Git (e.g. local pull, rebase, merge, push).
 
 
 ## Source code management
@@ -56,7 +54,7 @@ To commit the PR to the repo either use GitHub's "Squash and Merge" button on th
 
 ### Repos
 
-To create a new repo in the https://github.com/dfds/ org, contact Development Excellence(TODO: SLACK LINK).
+To create a new repo in the https://github.com/dfds/ org, contact [Development Excellence](https://slack.com/app_redirect?channel=dev-excellence).
 
 
 ### Branch strategy
@@ -124,6 +122,10 @@ For example, in the `Fruit` repo with the `Banana` and `Lychee` projects you wou
 /test/DFDS.Banana.Tests/BananaTest.csproj
 /test/DFDS.Banana.Tests/BananaTest.cs
 /test/DFDS.Banana.Tests/Util/BananaUtilTest.cs
+/docs/hello.md
+/contracts/api-contract.yml
+/iac/k8s/deployment.yml
+/samples/
 ```
 
 
@@ -185,7 +187,7 @@ The most general guideline is that we use all the VS default settings in terms o
 13. With the exception of 0 and 1, never hard-code a numeric value; always declare a constant instead.
 14. Whenever possible place string resources in .resx files.
 
-Furthermore we encourage the use of .editorconfig and maintain a DFDS specific configuration file [here](TODO).
+Furthermore we encourage the use of .editorconfig and encourage people to use the .NET Compiler Platforms configuration file which can be found [here](https://github.com/dotnet/roslyn/blob/master/.editorconfig).
    
 
 ### Usage of the var keyword
@@ -273,7 +275,7 @@ catch(IOException ie)
 ```
 
 
-### Avoid function calls in boolean conditional statements. Assign into local variable and check them.
+### Avoid function calls in boolean conditional statements, assign into local variables.
 
 ```c#
 bool IsEverythingOk()
@@ -323,7 +325,7 @@ var homeDir = Environment.GetEnvironmentVariable("USERPROFILE")
                   ?? Environment.GetEnvironmentVariable("HOME");
 ```
 
-Keep in mind that wherever possible environment variables should be accessed via the configuration system in .NET Core () by enabling the appropriate [configuration provider](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.0#environment-variables-configuration-provider).
+Keep in mind that wherever possible environment variables should be accessed via the configuration system in .NET Core (https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.0) by enabling the appropriate [configuration provider](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.0#environment-variables-configuration-provider).
 
 #### File path separators
 
