@@ -1,4 +1,4 @@
-Microservice Architecture Guidelines
+Microservice Design Guidelines
 ======================
 
 * [Basics](#basics)
@@ -40,7 +40,7 @@ If the process fails, the container ends, and the orchestrator takes over. If th
 You might find a scenario where you want multiple processes running in a single container. For that scenario, since there can be only one entry point per container, you could run a script within the container that launches as many programs as needed. For example, you can use Supervisor or a similar tool to take care of launching multiple processes inside a single container. However, even though you can find architectures that hold multiple processes per container, that approach isn't very common.
 
 
-## Architecture Patterns
+## Design Patterns
 
 Microservices offer great benefits but also raise huge new challenges. Microservice architecture patterns are fundamental pillars when creating a microservice-based application. In this section you can explore some of the most common patterns and learn about the consequences for your development team. 
 
