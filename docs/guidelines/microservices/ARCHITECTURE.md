@@ -21,7 +21,7 @@ Microservice Architecture Guidelines
 
 ## Architecture Patterns
 
-Microservices offer great benefits but also raise huge new challenges. Microservice architecture patterns are fundamental pillars when creating a microservice-based application.
+Microservices offer great benefits but also raise huge new challenges. Microservice architecture patterns are fundamental pillars when creating a microservice-based application. In this section you can explore some of the most common patterns and learn about the consequences for your development team. 
 
 
 ### Distributed Domain-driven Design (DDDD)
@@ -74,7 +74,7 @@ FaaS is the concept of serverless computing via serverless architectures. Softwa
 
 ### μSOA (Nano-SOA) 
 
-Nano-SOA fully inherits the high cohesion and low coupling characteristics of SOA architecture. Each plugin behaves like an independent service, has clear interface and boundary, and can be easily reused or replaced. It is comparable to SOA from the maintenance perspective. Each plugin can be developed and maintained separately, and a developer only needs to take care of his own plugin. By the addition of new plugins and recombination of existing plugins, nano-SOA makes things easier to modify or extend existing functions than SOA architecture. More infomation about Nano-SOA can be found [here](http://baiy.cn/doc/byasp/mSOA_en.htm)
+Nano-SOA fully inherits the high cohesion and low coupling characteristics of SOA architecture. Each plugin behaves like an independent service, has clear interface and boundary, and can be easily reused or replaced. It is comparable to SOA from the maintenance perspective. Each plugin can be developed and maintained separately, and a developer only needs to take care of his own plugin. By the addition of new plugins and recombination of existing plugins, nano-SOA makes things easier to modify or extend existing functions than SOA architecture. More infomation about Nano-SOA can be found [here](http://baiy.cn/doc/byasp/mSOA_en.htm).
 
 
 #### Description
@@ -97,7 +97,7 @@ Nano-SOA fully inherits the high cohesion and low coupling characteristics of SO
 
 ### SCS (Self-container Systems)
 
-The Self-contained System (SCS) approach is an architecture that focuses on a separation of the functionality into many independent systems, making the complete logical system a collaboration of many smaller software systems. This avoids the problem of large monoliths that grow constantly and eventually become unmaintainable. Over the past few years, we have seen its benefits in many mid-sized and large-scale projects. Additional information about SCS can be found [here](http://scs-architecture.org/index.html)
+The Self-contained System (SCS) approach is an architecture that focuses on a separation of the functionality into many independent systems, making the complete logical system a collaboration of many smaller software systems. This avoids the problem of large monoliths that grow constantly and eventually become unmaintainable. Over the past few years, we have seen its benefits in many mid-sized and large-scale projects. Additional information about SCS can be found [here](http://scs-architecture.org/index.html).
 
 #### Description
 
