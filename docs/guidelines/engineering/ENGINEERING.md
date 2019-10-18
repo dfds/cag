@@ -1,4 +1,4 @@
-Engineering guidelines
+Engineering Guidelines
 ======================
 
 * [Basics](#basics)
