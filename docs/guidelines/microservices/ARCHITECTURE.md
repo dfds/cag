@@ -99,6 +99,7 @@ Nano-SOA fully inherits the high cohesion and low coupling characteristics of SO
 
 The Self-contained System (SCS) approach is an architecture that focuses on a separation of the functionality into many independent systems, making the complete logical system a collaboration of many smaller software systems. This avoids the problem of large monoliths that grow constantly and eventually become unmaintainable. Over the past few years, we have seen its benefits in many mid-sized and large-scale projects. Additional information about SCS can be found [here](http://scs-architecture.org/index.html).
 
+
 #### Description
 
 * Self-contained, autonomous.
