@@ -28,7 +28,46 @@ As an additional benefit, microservices can scale out independently. Instead of 
 
 ## Design principles
 
-[TEXT]
+The design principles (non-functional requirements) are the important decision makers while designing microservices. The success of a system is completely depends on Availability, Scalability, Performance, Usability and Flexibility.
+
+
+### Availability
+
+The golden rule for availability says, anticipate failures and design accordingly so that the systems will be available for 99.999% (Five Nines). It means the system can go down only for a 5.5 minutes for an entire year. The cluster model is used to support high availability, where it suggests having group of services run in Active-Active mode or Active-Standby model.
+
+So while designing microservices, it must be designed for appropriate clustering and high-availability model. The basic properties of microservices such as stateless, independent & full stack will help us to run multiple instances in parallel in active-active or active-standby mode.
+
+
+### Scalability
+
+Microservices must be scale-able both horizontally and vertically.    Being horizontally scale-able, we can have multiple instances of the microservice to increase the performance of the system.  The design of the microservices must support horizontal scaling (scale-out).
+
+Also microservices should be scale-able vertically (scale-in).  If a microservice is hosted in a system with medium configuration such AWS EC2 t2-small (1-core, 2-GB memory) is moved to M4 10x-large ( 40 core & 160GB memory) it should scale accordingly.  Similarly downsizing the system capacity must also be possible.
+
+
+### Performance
+
+Performance is measured by throughput, response time (eg. 2500 TPS -transactions per second).  The performance requirements must be available in the beginning of the design phase itself. There are technologies and design choices will affect the performance. They are:
+
+* Synchronous or Asynchronous communication (DFDS preferes the latter)
+* Blocking or Non-blocking APIs (DFDS preferes the latter)
+* RESTful API or RPC  (DFDS preferes the former)
+* XML or JSON (DFDS preferes the latter)
+* SQL or NoSQL
+* Kafka or RabbitMQ  (DFDS preferes the former)
+* MongoDB or Cassandra or Cosmos DB (DFDS preferes the latter)
+  
+So, appropriate technology and design decisions must be taken, to avoid re-work in the later stage.
+
+
+### Usability
+
+Usability aspects of the design focuses on hiding the internal design, architecture, technology and other complexities to the end user or other system.  Most of the time, microservices expose APIs to the end user as well as to other microservices.  So, the APIs must be designed in a normalized way, so that it is easy to achieve the required services with minimal number of API calls.
+
+
+### Flexibility
+
+Flexibility measures the adaptability to change.  In the microservices eco-system, where each microservice is owned by different teams and developed in agile methodology, change will happen faster than any other systems.  The microservices may not inter-operate if they don't adapt or accommodate the change in other systems.  So, there must be a proper mechanism in place to avoid such scenarios which could include publishing the APIs, documenting the functional changes, clear communication plans.
 
 
 ### Container design principles
@@ -47,7 +86,7 @@ Microservices offer great benefits but also raise huge new challenges. Microserv
 
 ### Distributed Domain-driven Design (DDDD)
 
-[TEXT]
+[TEXT...]
 
 
 #### Description
