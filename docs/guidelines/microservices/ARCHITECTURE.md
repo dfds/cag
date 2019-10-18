@@ -50,7 +50,7 @@ Microservices offer great benefits but also raise huge new challenges. Microserv
 
 ### Function as a Service (FaaS)
 
-[TEXT]
+FaaS is the concept of serverless computing via serverless architectures. Software developers can leverage this to deploy an individual “function”, action, or piece of business logic. They are expected to start within milliseconds and process individual requests and then the process ends. Building an application following this model is typically used when building cloud-native microservices applications.
 
 
 #### Description
