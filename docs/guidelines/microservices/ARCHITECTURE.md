@@ -2,8 +2,8 @@ Microservice Design Guidelines
 ======================
 
 * [Basics](#basics)
-* [Architecture Patterns](#architecture-patterns)
-* [Best Practices](#best-practices)
+* [Design principles](#design-principles)
+* [Design patterns](#design-patterns)
 
 ## Basics
 
@@ -55,7 +55,7 @@ Performance is measured by throughput, response time (eg. 2500 TPS -transactions
 * XML or JSON (DFDS preferes the latter)
 * SQL or NoSQL
 * Kafka or RabbitMQ  (DFDS preferes the former)
-* MongoDB or Cassandra or Cosmos DB (DFDS preferes the latter)
+* MongoDB, Cassandra or Cosmos DB (DFDS preferes the latter)
   
 So, appropriate technology and design decisions must be taken, to avoid re-work in the later stage.
 
@@ -86,7 +86,7 @@ Microservices offer great benefits but also raise huge new challenges. Microserv
 
 ### Distributed Domain-driven Design (DDDD)
 
-[TEXT...]
+DDDD is essentially just a distributed variant of DDD where each individual microservice typically correlates to a specific bounded context and communication is facilitated via integration events to enable asynchronous communication between peer processes running in a k8s cluster (or similar).
 
 
 #### Description
