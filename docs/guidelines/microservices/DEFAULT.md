@@ -2,6 +2,6 @@ This section contains information about the on-going development and maintenance
 
 If you are looking for more information about Composable Architecture in general then you should visit https://cag.dfds.com.
 
-* [Design Principles](ARCHITECTURE.md)
+* [Design Principles](PRINCIPLES.md)
 * [Design Patterns](PATTERNS.md)
 * [Containerization Guidelines](CONTAINERIZATION.md)
