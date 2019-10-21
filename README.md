@@ -5,6 +5,7 @@
 ## Sections
 
    * [Taxonomy](docs/taxonomy/DEFAULT.md)
-   * [Engineering Guidelines](docs/guidelines/engineering/ENGINEERING.md)
-   * [Architecture Guidelines](docs/guidelines/microservices/DEFAULT.md)
-   * [Containerization Guidelines](docs/guidelines/microservices/DEFAULT.md)
+   * Development
+     * [Engineering Guidelines](docs/guidelines/engineering/ENGINEERING.md)
+     * [Architecture Guidelines](docs/guidelines/microservices/DEFAULT.md)
+     * [Containerization Guidelines](docs/guidelines/containerization/CONTAINERIZATION.md)
