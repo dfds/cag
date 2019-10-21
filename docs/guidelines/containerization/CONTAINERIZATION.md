@@ -1,4 +1,4 @@
-Container Guidelines
+Containerization Guidelines
 ======================
 
 * [Basics](#basics)
