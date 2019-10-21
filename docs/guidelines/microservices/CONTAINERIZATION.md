@@ -1,4 +1,4 @@
-Containerization Guidelines
+Microservice Containerization Guidelines
 ======================
 
 * [Basics](#basics)

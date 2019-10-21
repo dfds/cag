@@ -1,4 +1,4 @@
-Microservice Architecture Guidelines
+Microservice Design Principles
 ======================
 
 * [Basics](#basics)
