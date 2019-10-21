@@ -5,3 +5,4 @@ If you are looking for more information about Composable Architecture in general
 * General documentation - for those looking for guidance on C# development practices or wanting to contribute to DFDS Microservice Design Guidelines
    * [Architecture Guidelines](ARCHITECTURE.md)
    * [Design Patterns](PATTERNS.md)
+   * [Containerization Guidelines](CONTAINERIZATION.md)
