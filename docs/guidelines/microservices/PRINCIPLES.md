@@ -1,4 +1,4 @@
-Microservice Design Principles
+Design Principles
 ======================
 
 * [Basics](#basics)

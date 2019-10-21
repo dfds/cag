@@ -1,4 +1,4 @@
-Microservice Design Patterns
+Design Patterns
 ======================
 
 Microservices offer great benefits but also raise huge new challenges. Microservice architecture patterns are fundamental pillars when creating a microservice-based application. In this section you can explore some of the most common patterns and learn about the consequences for your development team. 
