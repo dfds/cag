@@ -318,11 +318,12 @@ public Task GetDataAsync(
 }
 ```
 
+Read more about async/await best practices [here](https://medium.com/@deep_blue_day/long-story-short-async-await-best-practices-in-net-1f39d7d84050)
 
 ### Extension method patterns
 The general rule is: if a regular static method would suffice, avoid extension methods.
 
-Extension methods are often useful to create chainable method calls, for example, when constructing complex objects, or creating queries.
+Extension methods are often useful to create chainable method calls or dependency wrappers, for example, when constructing complex objects,  creating queries or registering features/enablers.
 
 Internal extension methods are allowed, but bear in mind the previous guideline: ask yourself if an extension method is truly the most appropriate pattern.
 
