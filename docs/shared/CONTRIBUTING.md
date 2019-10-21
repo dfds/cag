@@ -1,4 +1,5 @@
-# How to contribute
+How to contribute
+======================
 
 One of the easiest ways to contribute is to participate in discussions on GitHub issues. You can also contribute by submitting pull requests with code changes.
 
@@ -31,7 +32,7 @@ If you would like to contribute to one of our repositories, first identify the s
 
 ### Submitting a pull request
 
-If you don't know what a pull request is read this article: https://help.github.com/articles/using-pull-requests. Make sure the repository can build and all tests pass. Familiarize yourself with the project workflow and coding conventions. The coding, style, and general engineering guidelines can be viewed [here](../engineering/ENGINEERING.md) page.
+If you don't know what a pull request is read this article: https://help.github.com/articles/using-pull-requests. Make sure the repository can build and all tests pass. Familiarize yourself with the project workflow and coding conventions. The coding, style, and general engineering guidelines can be viewed [here](ENGINEERING.md) page.
 
 ### Tests
 

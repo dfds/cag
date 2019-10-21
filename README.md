@@ -4,6 +4,7 @@
 
 ## Sections
 
-   * [Taxonomy](docs/taxonomy/DEFAULT.md)
-   * [Engineering Guidelines](docs/guidelines/engineering/DEFAULT.md)
-   * [Microservice Design Guidelines](docs/guidelines/microservices/DEFAULT.md)
+   * [Microservice - Taxonomy](docs/taxonomy/DEFAULT.md)
+   * [Microservice - Engineering Guidelines](docs/guidelines/engineering/ENGINEERING.md)
+   * [Microservice - Architecture Guidelines](docs/guidelines/microservices/DEFAULT.md)
+   * [Microservice - Container Guidelines](docs/guidelines/microservices/DEFAULT.md)
