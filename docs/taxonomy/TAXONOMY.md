@@ -1,7 +1,7 @@
 Composable Architecture Taxonomy
 ======================
 
-<div align="center">![alt text](https://github.com/dfds/cag/blob/master/docs/images/Composable_Architecture_Guidelines_Taxonomy.svg "Taxonomy - CAG")</div>
+![alt text](https://github.com/dfds/cag/blob/master/docs/images/Composable_Architecture_Guidelines_Taxonomy.svg "Taxonomy - CAG")
 
 | Term       | Meaning  |
 | :------------- | :----------: |
