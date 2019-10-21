@@ -314,6 +314,8 @@ Note: this may not always be possible or necessary.
 
 Be aware that these line-endings may cause problems in code when using `@""` text blocks with line breaks.
 
+```Avoid putting byte-order markers in your Dockerfile and save them using ANSI encoding (Linux is less forgiving then Windows).```
+
 #### Environment Variables
 
 OS's use different variable names to represent similar settings. Code should consider these differences.
