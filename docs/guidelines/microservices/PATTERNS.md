@@ -5,11 +5,9 @@ Microservices offer great benefits but also raise huge new challenges. Microserv
 
 
 ## Distributed Domain-driven Design (DDDD)
-
 DDDD is essentially just a distributed variant of DDD where each individual microservice typically correlates to a specific bounded context and communication is facilitated via integration events to enable asynchronous communication between peer processes running in a k8s cluster (or similar).
 
 ### Description
-
 * Small, self-hosted.
 * Bounded contexts.
 * Redundant data/CQRS.
@@ -17,7 +15,6 @@ DDDD is essentially just a distributed variant of DDD where each individual micr
 * Containerized.
 
 ### Consequences
-
 * Loose coupling between contexts.
 * Acknowledges separate evolution of contexts.
 * Asynchronicity increases stability.
@@ -27,11 +24,9 @@ DDDD is essentially just a distributed variant of DDD where each individual micr
 
 
 ## Function as a Service (FaaS)
-
 FaaS is the concept of serverless computing via serverless architectures. Software developers can leverage this to deploy an individual “function”, action, or piece of business logic. They are expected to start within milliseconds and process individual requests and then the process ends. Building an application following this model is typically used when building cloud-native microservices applications.
 
 ### Description
-
 * As small as possible.
 * A few hundred lines of code or less.
 * Triggered by events.
@@ -39,7 +34,6 @@ FaaS is the concept of serverless computing via serverless architectures. Softwa
 * Serverless.
 
 ### Consequences
-
 * Shared infrastructure dependency.
 * Common interfaces, multiple invocations.
 * Application logic in event handlers.
@@ -48,12 +42,10 @@ FaaS is the concept of serverless computing via serverless architectures. Softwa
 * Unpredictable response times.
 
 
-## μSOA (Nano-SOA) 
-
+## μSOA (Nano-SOA)
 Nano-SOA fully inherits the high cohesion and low coupling characteristics of SOA architecture. Each plugin behaves like an independent service, has clear interface and boundary, and can be easily reused or replaced. It is comparable to SOA from the maintenance perspective. Each plugin can be developed and maintained separately, and a developer only needs to take care of his own plugin. By the addition of new plugins and recombination of existing plugins, nano-SOA makes things easier to modify or extend existing functions than SOA architecture. More infomation about Nano-SOA can be found [here](http://baiy.cn/doc/byasp/mSOA_en.htm).
 
 ### Description
-
 * Small, self-hosted.
 * Communicating synchronously.
 * Cascaded/streaming.
@@ -61,7 +53,6 @@ Nano-SOA fully inherits the high cohesion and low coupling characteristics of SO
 * Pull-driven style requires orchestration.
 
 ### Consequences
-
 * Close collaboration - common goal.
 * Need for resilience/stabilty patterns for invocations.
 * High cost of coordination. (versioning, compatiblity, etc)
@@ -70,17 +61,14 @@ Nano-SOA fully inherits the high cohesion and low coupling characteristics of SO
 
 
 ## SCS (Self-contained Systems)
-
 The Self-contained System (SCS) approach is an architecture that focuses on a separation of the functionality into many independent systems, making the complete logical system a collaboration of many smaller software systems. This avoids the problem of large monoliths that grow constantly and eventually become unmaintainable. Over the past few years, we have seen its benefits in many mid-sized and large-scale projects. Additional information about SCS can be found [here](http://scs-architecture.org/index.html).
 
 ### Description
-
 * Self-contained, autonomous.
 * Includes UI + DB.
 * Can be composed from smaller microservices.
 
 ### Consequences
-
 * Larger, independent systems, including data + UI.
 * Able to autonomously serve requests.
 * Light-weight integration, ideally via responsive web components.
