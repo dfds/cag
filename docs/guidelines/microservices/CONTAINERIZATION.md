@@ -8,9 +8,9 @@ This document covers recommended best practices and methods for Docker and how t
 
 A Docker image consists of read-only layers each of which represents a Dockerfile instruction. The layers are stacked and each one is a delta of the changes from the previous layer. Consider this Dockerfile:
 
-FROM ubuntu:18.04
-COPY . /app
-RUN make /app
+FROM ubuntu:18.04<br/>
+COPY . /app<br/>
+RUN make /app<br/>
 CMD python /app/app.py
 
 Each instruction creates one layer:
