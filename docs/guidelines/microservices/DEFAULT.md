@@ -1,7 +1,7 @@
-This section contains information about the on-going development and maintenance of DFDS Microservice Design Guidelines for C# developers.
+This section contains information about the on-going development and maintenance of our Microservice Architecture Guidelines.
 
 If you are looking for more information about Composable Architecture in general then you should visit https://cag.dfds.com.
 
-* General documentation - for those looking for guidance on C# development practices or wanting to contribute to DFDS Microservice Design Guidelines
-   * [Architecture Guidelines](ARCHITECTURE.md)
-   * [Design Patterns](PATTERNS.md)
+* [Design Principles](PRINCIPLES.md)
+* [Design Patterns](PATTERNS.md)
+* [Containerization Guidelines](CONTAINERIZATION.md)

@@ -12,7 +12,6 @@ Engineering Guidelines
 ## Basics
 
 ### Copyright header and license notice
-
 All source code files require this exact header (please do not make any changes to it):
 
 ```c#
@@ -24,9 +23,7 @@ It is ok to skip it on generated files, such as `*.designer.cs`.
 
 Every repo also needs the Apache 2.0 License in a file called LICENSE.txt in the root of the repo. Please use the default version provided by the GitHub "create repository" wizard.
 
-
 ### External dependencies
-
 This refers to dependencies on projects (i.e. NuGet packages) outside of the current repo, and especially outside of DFDS.
 
 Dependencies are managed in `build\external-dependencies.props`.
@@ -35,9 +32,7 @@ Dependencies are managed in `build\external-dependencies.props`.
 
 Dependencies that are used only in test projects and build tools are not nearly as rigid.
 
-
 ### Code reviews and checkins
-
 To help ensure that only the highest quality code makes its way into the project, please submit all your code changes to GitHub as PRs. This includes runtime code changes, unit test updates, and updates to official samples. For example, sending a PR for just an update to a unit test might seem like a waste of time but the unit tests are just as important as the product code and as such, reviewing changes to them is also just as important. This also helps create visibility for your changes so that others can observe what is going on.
 
 The advantages are numerous: improving code quality, more visibility on changes and their potential impact, avoiding duplication of effort, and creating general awareness of progress being made in various areas.
@@ -46,33 +41,23 @@ In general a PR should be signed off (using GitHub's "approve" feature) by the S
 
 To commit the PR to the repo either use GitHub's ["Squash and Merge"](https://github.blog/2016-04-01-squash-your-commits/) button on the main PR page, or do a typical push that you would use with Git (e.g. local pull, rebase, merge, push).
 
-
 ## Source code management
-
 :grey_exclamation: The *structure* of the code that we write and the *tools* that we use to write the code.
 
-
 ### Repos
-
 To create a new repo in the https://github.com/dfds/ org, contact [Development Excellence](https://slack.com/app_redirect?channel=dev-excellence).
 
-
 ### Branch strategy
-
 In general:
 
 * `master` has the code that is being worked on but not yet released. This is the branch into which developers normally submit pull requests and merge changes into.
 
 * `release/<major>.<minor>` contains code that is intended for release. The `<major>.<minor>` part of the branch name indicates the beginning of the version of the product the code will end up in. The branch may be used for several patch releases with the same major.minor number. It is common for repos to have multiple `release/*` branches, each which may receive servicing updates.
 
-
 #### Making changes to release branches
-
 If you make a change to a `release/*` branch directly, you typically also need to merge those changes back to `master`. This often causes some merge conflicts, so make sure to proceed carefully. If you're not sure how to do this, follow these steps.
 
-
 ##### Manual merges to master
-
 ```sh
 # Make your changes to release/x.y
 git checkout release/x.y    
@@ -102,7 +87,6 @@ git push
 ```
 
 ### Solution and project folder structure and naming
-
 Solution files go in the repo root.
 
 Solution names match repo names (e.g. Mvc.sln in the Mvc repo).
@@ -128,9 +112,7 @@ For example, in the `Fruit` repo with the `Banana` and `Lychee` projects you wou
 /samples/
 ```
 
-
 ### Conditional compilation for multiple Target Frameworks
-
 Code sometimes has to be written to be target framework-specific due to API changes between frameworks. Use `#if` statements to create these conditional code segments:
 Desktop:
 
@@ -146,29 +128,19 @@ Desktop:
 
 Note the `#error` section that is present in case the target frameworks change - this ensure that we don't have dead code in the projects, and also no missing conditions.
 
-
 ### Assembly naming pattern
-
 The general naming pattern is `dfds.<capability>.<area>.<subarea>`.
 
-
 ### Unit tests
-
 We use xUnit.net for all unit testing.
 
-
 ### Repo-specific Samples
-
 Some repos will have their own sample projects that are used for testing purposes and experimentation. Please ensure that these go in a `samples/` sub-folder in the repo.
 
-
 ## Coding guidelines
-
 :grey_exclamation: The *content* of the code that we write.
 
-
 ### Coding style guidelines – general
-
 The most general guideline is that we use all the VS default settings in terms of code formatting, except that we put `System` namespaces before other namespaces (this used to be the default in VS, but it changed in a more recent version of VS).
 
 1. Use four spaces of indentation (no tabs)
@@ -189,9 +161,7 @@ The most general guideline is that we use all the VS default settings in terms o
 
 Furthermore we encourage the use of .editorconfig and encourage people to use the .NET Compiler Platforms configuration file which can be found [here](https://github.com/dotnet/roslyn/blob/master/.editorconfig).
    
-
 ### Usage of the var keyword
-
 The `var` keyword is to be used as much as the compiler will allow. For example, these are correct:
 
 ```c#
@@ -210,9 +180,7 @@ List<Fruit> fruits = new List<Fruit>();
 FruitFlavor flavor = fruit.GetFlavor();
 ```
 
-
 ### Use C# type keywords in favor of .NET type names
-
 When using a type that has a C# keyword the keyword is used in favor of the .NET type name. For example, these are correct:
 
 ```c#
@@ -235,9 +203,7 @@ public String TrimString(String s) {
 }
 ```
 
-
 ### Using default parameters 
-
 When specifying default parameter values always prioritize using the [default literal](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/default) over value assignments and when opting for value assignment always use natural immutable constants (0, false, null). For example:
 
 ```c#
@@ -258,9 +224,7 @@ public String TrimString(string s = "") {
 }
 ```
 
-
 ### Exception handling
-
 Catch only exceptions for which you have explicit exception handling and make sure that catch statements always rethrow the original exception (or an exception constructed using the original exception) to maintain the stack location of the original error. For example:
 
 ```c#
@@ -274,9 +238,7 @@ catch(IOException ie)
 }
 ```
 
-
 ### Avoid function calls in boolean conditional statements, assign into local variables.
-
 ```c#
 bool IsEverythingOk()
 {...}
@@ -290,9 +252,7 @@ if(ok)
 {...}
 ```
 
-
 ### Avoid explicit casting. Use the `as` operator to defensively cast to a type. For example:
-
 ```c#
 Animal animal = new Dog();
 var dog = animal as Dog;
@@ -302,9 +262,7 @@ if(dog != null)
 
 ```
 
-
 ### Cross-platform coding
-
 Our frameworks should work on CoreCLR, which supports multiple operating systems. Don't assume we only run (and develop) on Windows. Code should be sensitive to the differences between OS's. Here are some specifics to consider.
 
 #### Line breaks
@@ -314,8 +272,10 @@ Note: this may not always be possible or necessary.
 
 Be aware that these line-endings may cause problems in code when using `@""` text blocks with line breaks.
 
-#### Environment Variables
+#### Dockerfile
+Avoid putting byte-order markers in your Dockerfile and save it using ANSI encoding (Linux is less forgiving then Windows).
 
+#### Environment Variables
 OS's use different variable names to represent similar settings. Code should consider these differences.
 
 For example, when looking for the user's home directory, on Windows the variable is `USERPROFILE` but on most Linux systems it is `HOME`.
@@ -328,14 +288,11 @@ var homeDir = Environment.GetEnvironmentVariable("USERPROFILE")
 Keep in mind that wherever possible environment variables should be accessed via the [configuration system](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.0) in .NET Core by enabling the appropriate [configuration provider](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.0#environment-variables-configuration-provider).
 
 #### File path separators
-
 Windows uses `\` and OS X and Linux use `/` to separate directories. Instead of hard-coding either type of slash, use [`Path.Combine()`](https://msdn.microsoft.com/en-us/library/system.io.path.combine(v=vs.110).aspx) or [`Path.DirectorySeparatorChar`](https://msdn.microsoft.com/en-us/library/system.io.path.directoryseparatorchar(v=vs.110).aspx).
 
 If this is not possible (such as in scripting), use a forward slash. Windows is more forgiving than Linux in this regard.
 
-
 ### When to use internals vs. public and when to use InternalsVisibleTo
-
 As a modern set of frameworks, usage of internal types and members is allowed, but discouraged.
 
 `InternalsVisibleTo` is used only to allow a unit test to test internal types and members of its runtime assembly. We do not use `InternalsVisibleTo` between two runtime assemblies.
@@ -344,9 +301,7 @@ If two runtime assemblies need to share common helpers then we will use a "share
 
 If two runtime assemblies need to call each other's APIs, the APIs must be public. If we need it, it is likely that our customers need it.
 
-
 ### Async method patterns
-
 By default all async methods must have the `Async` suffix. There are some exceptional circumstances where a method name from a previous framework will be grandfathered in.
 
 Passing cancellation tokens is done with an optional parameter with a value of `default(CancellationToken)`, which is equivalent to `CancellationToken.None`. The main exception to this is in web scenarios where there is already an `HttpContext` being passed around, in which case the context has its own cancellation token that can be used when needed.
@@ -363,12 +318,12 @@ public Task GetDataAsync(
 }
 ```
 
+Read more about async/await best practices [here](https://medium.com/@deep_blue_day/long-story-short-async-await-best-practices-in-net-1f39d7d84050)
 
 ### Extension method patterns
-
 The general rule is: if a regular static method would suffice, avoid extension methods.
 
-Extension methods are often useful to create chainable method calls, for example, when constructing complex objects, or creating queries.
+Extension methods are often useful to create chainable method calls or dependency wrappers, for example, when constructing complex objects,  creating queries or registering features/enablers.
 
 Internal extension methods are allowed, but bear in mind the previous guideline: ask yourself if an extension method is truly the most appropriate pattern.
 
@@ -394,22 +349,16 @@ When writing extension methods for an interface the sponsor type name must not s
 
 
 ### Minimize code in application assemblies (EXE client assemblies) and use .NET Standard libraries instead to contain business logic.
-
 In general we want to avoid bundling our business logic with the application assemblies as it becomes impossible to re-use business logic in other host contexts without inheriting undesired dependencies. 
 
-
 ### Doc comments
-
 The person writing the code will write the doc comments. Public APIs only. No need for doc comments on non-public types.
 
 Note: Public means callable by a customer, so it includes protected APIs. However, some public APIs might still be "for internal use only" but need to be public for technical reasons. We will still have doc comments for these APIs but they will be documented as appropriate.
 
-
 ### Unit tests and functional tests
 
-
 #### Assembly naming
-
 The unit tests for the `Dfds.Fruit` assembly live in the `Dfds.Fruit.Tests` assembly.
 
 The integration tests for the `Dfds.Fruit` assembly live in the `Dfds.Fruit.IntegrationTests` assembly.
@@ -418,14 +367,10 @@ The functional tests (end-2-end) for the `Dfds.Fruit` assembly live in the `Dfds
 
 In general there should be exactly one unit test assembly for each product runtime assembly. In general there should be one integration/functional test assembly per repo. Exceptions can be made for both.
 
-
 #### Unit test class naming
-
 Test class names end with `Test` and live in the same namespace as the class being tested. For example, the unit tests for the `Dfds.Fruit.Banana` class would be in a `Dfds.Fruit.BananaTest` class in the test assembly.
 
-
 #### Unit test method naming
-
 Unit test method names must be descriptive about *what is being tested*, *under what conditions*, and *what the expectations are*. Pascal casing and underscores can be used to improve readability. The following test names are correct:
 
 ```
@@ -442,9 +387,7 @@ FormatString
 GetData
 ```
 
-
 #### Unit test structure
-
 The contents of every unit test should be split into three distinct stages, optionally separated by these comments:
 
 ```c#
@@ -478,9 +421,7 @@ Assert.AreEqual(1234, result);
 
 Now the only reason the line with `CallSomeMethod()` can fail is if the method itself blew up. This is especially important when you're using helpers such as `ExceptionHelper`, where the delegate you pass into it must fail for exactly one reason.
 
-
 ### Testing exception messages
-
 In general testing the specific exception message in a unit test is important. This ensures that the exact desired exception is what is being tested rather than a different exception of the same type. In order to verify the exact exception it is important to verify the message.
 
 To make writing unit tests easier it is recommended to compare the error message to the RESX resource. However, comparing against a string literal is also permitted.
@@ -493,9 +434,7 @@ Assert.Equal(
     ex.Message);
 ```
 
-
 #### Use xUnit.net's plethora of built-in assertions
-
 xUnit.net includes many kinds of assertions – please use the most appropriate one for your test. This will make the tests a lot more readable and also allow the test runner report the best possible errors (whether it's local or the CI machine). For example, these are bad:
 
 ```c#
@@ -525,16 +464,12 @@ Assert.Equal("abc123", someString);
 Assert.Equal(list1, list2, StringComparer.OrdinalIgnoreCase);
 ```
 
-
 #### Parallel tests
-
 By default all unit test assemblies should run in parallel mode, which is the default. Unit tests shouldn't depend on any shared state, and so should generally be runnable in parallel. If the tests fail in parallel, the first thing to do is to figure out *why*; do not just disable parallel tests!
 
 For functional tests it is reasonable to disable parallel tests.
 
-
 ### Use only complete words or common/standard abbreviations in public APIs
-
 Public namespaces, type names, member names, and parameter names must use complete words or common/standard abbreviations.
 
 These are correct:
@@ -550,11 +485,9 @@ public EcmaScriptObject SomeObj { get; }
 ```
 
 ## Common Patterns
-
 This section contains common patterns used in our code.
 
 ### Logging patterns
-
 1. Always specify an `EventId`. Include a numeric ID **and** a name. The name should be a `PascalCasedCompoundWord` (i.e. no spaces, and each "word" within the name starts with a capital letter).
 
 1. In production code, use "pre-compiled logging functions" (see below). Test code can use any kind of logging
@@ -637,17 +570,12 @@ public partial class MyComponent
 ```
 
 ## Product planning and issue tracking
-
 :grey_exclamation: How we track what work there is to do.
 
-
 ### Issue tracking
-
 Bug management takes place in GitHub. Each repo has its own issue tracker. Bugs cannot be moved between repos so make sure you open a bug in the right repo. To "port" a bug to another repo, consider using a tool such as https://github-issue-mover.appspot.com/.
 
-
 ### Breaking changes
-
 In general, breaking changes can be made only in a new **major** product version, e.g. moving from `1.x.x` to `2.0.0`. Even still, we generally try to avoid breaking changes because they can incur large costs for anyone using these products.
 
 Breaking changes in major versions need to be approved by an engineering manager.

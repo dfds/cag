@@ -27,24 +27,19 @@ Our team members also monitor several other discussion channels/forums:
 * [Teams](https://teams.microsoft.com/)
 
 ### Identifying the scale
-
 If you would like to contribute to one of our repositories, first identify the scale of what you would like to contribute. If it is small (grammar/spelling or a bug fix) feel free to start working on a fix. If you are submitting a feature or substantial code contribution, please discuss it with the team. You might also read these two blogs posts on contributing code: [Open Source Contribution Etiquette](http://tirania.org/blog/archive/2010/Dec-31.html) by Miguel de Icaza and [Don't "Push" Your Pull Requests](https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/) by Ilya Grigorik. All code submissions will be rigorously reviewed and tested by the DFDS teams, and only those that meet an extremely high bar for both quality and design/roadmap appropriateness will be merged into the source.
 
 ### Submitting a pull request
-
 If you don't know what a pull request is read this article: https://help.github.com/articles/using-pull-requests. Make sure the repository can build and all tests pass. Familiarize yourself with the project workflow and coding conventions. The coding, style, and general engineering guidelines can be viewed [here](ENGINEERING.md) page.
 
 ### Tests
-
 -  Tests need to be provided for every bug/feature that is completed.
 -  Tests only need to be present for issues that need to be verified by QA (for example, not tasks)
 -  If there is a scenario that is far too hard to test there does not need to be a test for it.
   - "Too hard" is determined by the team as a whole.
 
 ### Feedback
-
 Your pull request will go through extensive checks by the subject matter experts (SME) on our team. Please be patient; Update your pull request according to feedback from DFDS members until it is approved by one of the team members. After that, one of our team members may adjust the branch you merge into based on the expected release schedule.
 
 ## Code of conduct
-
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).  For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [cag@dfds.com](mailto:cag@dfds.com) with any additional questions or comments.

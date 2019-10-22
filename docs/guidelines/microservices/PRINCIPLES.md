@@ -1,4 +1,4 @@
-Microservice Architecture Guidelines
+Design Principles
 ======================
 
 * [Basics](#basics)
@@ -26,9 +26,9 @@ As an additional benefit, microservices can scale out independently. Instead of 
 The design principles (non-functional requirements) are the important decision makers while designing microservices. The success of a system is highly dependant on adhering to these principles.
 
 ### Event-driven
-An event-driven architectures is a publish/consumer paragdim that can be used to communicate state changes between distributed processes. The publisher, which is the source of the event, only knows that the event has occurred. Consumers are entities that need to know the event has occurred; they may be involved in processing the event or they may simply be affected by the event. 
+An event-driven architecture is a publisher/consumer paragdim that can be used to communicate state changes between distributed processes. The publisher, which is the source of the event, only knows that the event has occurred. Consumers are entities that need to know the event has occurred; they may be involved in processing the event or they may simply be affected by the event. 
 
-Event consumers typically subscribe to some type of middleware event manager, also called a topic. When the manager receives notification of an event from a publisher, it forwards that event to all registered consumers. The benefit of an event-driven architecture is that it enables large numbers of creators and publishers to exchange status and response information in near real-time.
+Event consumers typically subscribe to some type of middleware event manager, e.g. a topic. When the manager receives notification of an event from a publisher, it forwards that event to all registered consumers. The benefit of an event-driven architecture is that it enables large numbers of creators and publishers to exchange status and response information in near real-time.
 
 ### Cloud-native
 In general usage, “cloud-native” is an approach to building and running applications that exploits the advantages of the cloud computing delivery model by packaging all its dependencies in its own container, which is dynamically orchestrated so each part is actively scheduled and managed to optimize resource utilization, and microservices-oriented to increase the overall agility and maintainability of applications. By taking advantage of cloud services in this way we enable scalable components to deliver discrete and reusable features that integrate in well-described ways, even across technology boundaries like multicloud.
