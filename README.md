@@ -7,4 +7,5 @@
    * [Taxonomy](docs/taxonomy/TAXONOMY.md)
    * [Engineering Guidelines](docs/guidelines/engineering/ENGINEERING.md)
    * [Architecture Guidelines](docs/guidelines/microservices/DEFAULT.md)
-   * [Logging Guidelines](docs/guidelines/logging/DEFAULT.md)
+   * [Logging Guidelines](docs/guidelines/logging/LOGGING.md)
+   * [Monitoring Guidelines](docs/guidelines/monitoring/MONITORING.md)
