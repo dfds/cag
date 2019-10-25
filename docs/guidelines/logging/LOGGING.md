@@ -8,6 +8,12 @@ Logging Guidelines
 ## Basics
 TODO
 
+### LogLevel
+TODO
+
+### LogTypes
+TODO
+
 ## SeriLog
 TODO
 
@@ -16,3 +22,6 @@ https://github.com/serilog/serilog-sinks-elasticsearch
 
 ## ElasticSearch
 https://www.elastic.co/products/elastic-cloud-kubernetes
+
+### Index-per-capability
+TODO
