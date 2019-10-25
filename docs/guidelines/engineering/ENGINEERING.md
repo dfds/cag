@@ -302,7 +302,7 @@ If two runtime assemblies need to share common helpers then we will use a "share
 If two runtime assemblies need to call each other's APIs, the APIs must be public. If we need it, it is likely that our customers need it.
 
 ### Async method patterns
-By default all async methods must have the `Async` suffix. There are some exceptional circumstances where a method name from a previous framework will be grandfathered in.
+By default all async methods should have the `Async` suffix. There are some exceptional circumstances where a method name from a previous framework will be grandfathered in.
 
 Passing cancellation tokens is done with an optional parameter with a value of `default(CancellationToken)`, which is equivalent to `CancellationToken.None`. The main exception to this is in web scenarios where there is already an `HttpContext` being passed around, in which case the context has its own cancellation token that can be used when needed.
 
@@ -319,6 +319,8 @@ public Task GetDataAsync(
 ```
 
 Read more about async/await best practices [here](https://medium.com/@deep_blue_day/long-story-short-async-await-best-practices-in-net-1f39d7d84050)
+
+Read more about pitfals with IDisposable when using async/await [here](http://www.thebillwagner.com/blog/Item/2017-05-03-ThecuriouscaseofasyncawaitandIDisposable)
 
 ### Extension method patterns
 The general rule is: if a regular static method would suffice, avoid extension methods.
