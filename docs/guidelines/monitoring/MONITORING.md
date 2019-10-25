@@ -3,7 +3,7 @@ Monitoring Guidelines
 
 * [Basics](#basics)
 * [Prometheus](#prometheus)
-* [Alerting](#alerting)
+* [Alerting](#alerting strategies)
 
 ## Basics
 TODO
@@ -14,7 +14,7 @@ TODO
 ### Visualization - Grafana
 TODO
 
-## Alerting
+## Alerting strategies
 We recommend that you read [My Philosophy on Alerting](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit) based on Rob Ewaschuk's observations at Google.
 
 To summarize: keep alerting simple, alert on symptoms, have good consoles to allow pinpointing causes, and avoid having pages where there is nothing to do.
