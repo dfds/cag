@@ -52,9 +52,11 @@ In general:
 
 * `master` has the code that is being worked on but not yet released. This is the branch into which developers normally submit pull requests and merge changes into.
 
+#### Release branching
+
 * `release/<major>.<minor>` contains code that is intended for release. The `<major>.<minor>` part of the branch name indicates the beginning of the version of the product the code will end up in. The branch may be used for several patch releases with the same major.minor number. It is common for repos to have multiple `release/*` branches, each which may receive servicing updates.
 
-#### Making changes to release branches
+##### Making changes to release branches
 If you make a change to a `release/*` branch directly, you typically also need to merge those changes back to `master`. This often causes some merge conflicts, so make sure to proceed carefully. If you're not sure how to do this, follow these steps.
 
 ##### Manual merges to master
