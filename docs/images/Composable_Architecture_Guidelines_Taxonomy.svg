@@ -1,3 +1,183 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="749px" height="749px" viewBox="-0.5 -0.5 749 749" content="&lt;mxfile host=&quot;www.draw.io&quot; modified=&quot;2019-10-16T12:38:12.854Z&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36&quot; version=&quot;12.1.1&quot; etag=&quot;57r_fgd6-QCt-fIiDAxK&quot; type=&quot;device&quot; pages=&quot;2&quot;&gt;&lt;diagram name=&quot;CAG &amp;gt; Impact Map&quot; id=&quot;CAG &amp;gt; Impact Map&quot;&gt;7Z1bc5u6GoZ/TWb2viiDhEBw6UNWmkzSZMXpato7ArLNCkbegHP69VuywbENJvEYZJmonbrmQ8hC0sOnwytxYvQmL2exOx1fUZ+EJ1D3X06M/gmEUEc2+49bXhcWoDtgYRnFgZ/Z3g2D4I3kATPrLPBJshYwpTRMg+m60aNRRLx0zebGMX1eDzak4fqvTt0RKRgGnhsWrb8CPx0vrDbE7/bvJBiN818GlrM4M3HzwNmdJGPXp88rJuP0xOjFlKaLb5OXHgl57uX5srjury1nlwmLSZR+5gKYJSN9ze/tKfFfzvvsO0tLdxiEYY+GNGbHEY1YkO4odv2Axb5hTtKYPpINY+g+kLDreo+jmM4if+Ps3EZ4QnR2NE4nIfsK2NfncZCSwdT1eJKeWR1ituKNZff6ROKUvKyYshs9I3RC0viVBcnOmsbiiqzWWVktfH4vQQjQwjZeKT0zLys3qzWjZczvGcu+ZHlbns/ZTz+54SzL5xNohSnPYspuaLUErP/NaH7iWzKv+x1gTV9y09CdBCG7h07PDYOHOGB2b5GxnRNoDMmQ/WE2P4hZ1Q9oxOxhGvPSIGlK4m8Jy9ggGjGzPo80DCLyLb/hDuB3azIz5cFS/jvgPU3s24j/fzN7CINkzNLdo5MpTYIHlniod2KPF52XzmJ+eMYx5dEn/NY19gE0Pb/vh5hnXhZfbmSmRX7k5s3KyQo7YBx2wmDEbqw/CXyfn+u6mcFj1YPwm11WY2OjGrM8MnQTObiiLo/dKf/BJCWRF4T/if50L/u0M+qf3t7ob8bg/PVf8qwPft6OBiy67uXMebz6Q+8vx88/nGtmSGePnTD+Mb0YgcFb/zv6+xe7Lxb6x+/Rn7vHfzvo5+Pzxc/R2T0rBdi1+vfg7XI4oa8T/54C/DI23ya3F9bfCHZ/9YYepBdDv8Nyq/v7iX10bpzeA76+ML6zSOHFGfj+4+yNfbXRY3g3vvmn57GU/7dAJLttz+Z/m8YS7oqloa9haUCnwCUwYZFLoIP9uUT7cQlhCZdd6tMoYNde3bEPltve4zqjyMLQQ00zmt/ILDecXXcuP6JvJoBIczfH0kIYRbjHz3P4kQOE9v6cme3yf0tHl4h2ZwAV/RnxsW+Ar4WQMH+2czPTsKw1hwaRXnRoOi5yhmvwZ1a7OOuTJxLSKYnFc7bppXiF0/kfxZmcnCFgiOMMt4uz63R8CMasImN4yP8qxuRkzMSWOMbsL9Q36/Turm8HMvTOAFbdMxlHLw2wPk5iFb1dY7035wuReH51w2CUA0VboSgjilY+uHIAFPOnQNmMDdpsTx39lI2Tj/HumNOW49SQ1Xlyv8Jjr396ef7P6W2ne3kqxbMPqWaIECL1TyMp5OkG90NOtn71X8QnsZuy8mEpJ94s5iEF97IxKPaydV31suXxcuyJv+blhI4Yg5ZJEwYkfgo8Lj/wg8SjrBTEE7cpneHjWrqhu2rsWFLiDMsUSNyeogPZiOvRKAl4veVJ96jP2XtwEyJ8PBmXaH3w0FJzNtJyhxyRnq5lIoSey0qRI8JSTp4W+E242FY8eCWiBKy7PlIiO0nBA7kTEgJey1QJdyQkWSYI5qxElMC6crqnHJyknFlA4IQpaJkqYZC6D0F4iCGTEmGCSxCZD7ArziTkDBvF1RzNcbanMkE2zi4G1z94or0xmbjCG4/25iynajxKBtvmLBzQi0s0SqcEDLMG2PYUH8gG22BO2TzZlK+SEguboyvYjgw2E4uDLV/q2BbYrh9TjtpoZSGiYN5KhiTV5JvMvC2nxIXwtqfERDbezhMWM0v1eTSKScKX/SbuZBoegLvykRLFnbzcmZ9cj18Ldy3TmQw8OuWQ9fgMXOgGE44eO8ng45hMFmWmT0k8CZKEJUI8kCVDKgpImYE09OKceHNAtkyF0rk5Z2k+c1Py7L4etAUK9NIun1KjSEyeJbIJ2jI1yvWURCzRCwDZTQW+m9IDrG3US2SXCjuZsUO6yBZoy8Qop9GIXUViHs9h3V1Jz0+JwKTmTqi7a5kWpU8SjsJhkStdx6+Qkxc5U+QMXts2y7hxeVTRliGW2GU/7B2AQlDWz1MUykyhWRSHNUdhy0QrVzQKWMfu4O3Nso2ilCZTZuysfJWpEOxaJl+5pKPR4Zkrn0xQzMnLnCmwwWm0TMVyQ+IhjSduNF/WekjunCJ3ShctM3fYEOjrjJapWW5JQmfxHDqPRqwKuEF0gB1/YUnHTlEnNXVY4ExCTnjZjlCAp7pL/BEZZGeXez+5cdrhr0J5t5HIzy0PIZ3vSzQPlr1/xVwEWTkqFM+yVmb03dFpVgaZoUvTlE7WbZdkmK5bbrMM4qatwKyU6i6VgbwE6T2/TtN1x0AmdpDhQBMaRnbyNw+omaw1ifgrQ0wIAH9VyOJk/2Ulmv7rygHz0QErOo7uwhaxYrxfPcgiBgjaJl5+5mffY54fva4ebca9tcZmj6uFKRt1YyU4Inl1y8LxClFZr2MSumnwRNZiL6uk2aU3NJg/3zMevm1cQYfDhKVhpVKzijbXReQhpnTxaN0WI3bgBmFoNbqPwzuWBtAGVotEvEO2zIDPcWdUcQcUd1Jxh1ahY59iudMb5k4i0JCjIVgvaKgCtPkemcJAWw4yKNAO7+CsImj5aNsRgmaZcCfQLIw1ZNQLmlkFGlagSQWaOI9WBprdlpbkztxBR8t2xa+NO6uKO0Mkd8vXLxwBd2uYIQc6JmusWAjbNjbmgzs1ObQSgBvhrKThmG/O2Bhmr01hZgJT0zfIyTZU3kZaySVIZ/lvVl+FbC0HaOtV+yOKqxDdMsjiu8l4Xm1BdpApR7gFMq/B4rO0uTyjGZiX7ys6Npiba5yKYrnEZebbzx0jy7CAGHKqqTRBgeXdLwGmrlk1g2xXgSx01GYpzjoCPFvfmUQlbVzcljauCa1K9ArhMdJ0UC93TgV3utBBHMWd5NxZX5Y7aGmw3lmKfCv5cu6Ejuko7iTnrukGqrTcIWzX7e8QqOJO7JhOvupUcXd47owS7lDD3DUHGtKrh3QK4aGpWXa9oMEq0ITKXxRoEk1alIHW9GiqMAe3K3cGnyysd9ICVchfHEckdstthBR2h/dvsAQ72BbsIN6tXWlAQ8OwXuwqxDCOaC2Mwk5m7Foj9twVO4hNza7Z21VIYxzRyhiFnczYNa31lBc7WHPPrkIW4wju2GU7pCvmDs+cWWQuf0fA8TMHTH0n5gBGmlFzC7NC6uKInSBX2MmNXdMiUIk4g1jLXidUG2cVShRb8MTc8TQp17Bqqeizad2JbCpPjA3NdOqFq0JuYlsKrq8LV9PiEtngskygGTtLqItX7Y2kWaFEsVE5kkpBrRTUAh1j+xTU7PmtoXpdq1mhbLG3CFsUx4pjgT64fRxbJtRgzf4YVnCsVjQpjj/muGnhWvs45gpvu2aOK4Q49pbxWsWx4jgWt8q4BeAiHWioZnArpDy2rsBV4H4ILlTgfnQJxAyImsGtEANhodJX4mPfAArHA+BYNh96tPpylLVJPyv92QzPveMH++iU7tOxedX+aFZohrBQeaxCUyo0j8dT7ssid3hgZxaLV+3PYoWQyNoy4dMMi8jC0EPHwSJrvVsmth2EDctGcINNwEr7/Z9zfGyWLMs62n1xlhKeT7ZON8NznbpT7xaOZoWoyDIVc4q5k9XOpMwt1bX973ekoEL9YwlV/ygKPlwRXCYzEoXB8Sjt9vU1FgBavToAq0LPg4XqV1VXS6qu1tFuI7Nvz4tvV7jfcl92GFP+DqL34LE7HV9Rn/AQ/wc=&lt;/diagram&gt;&lt;diagram name=&quot;CAG &amp;gt; Taxonomy&quot; id=&quot;CAG &amp;gt; Taxonomy&quot;&gt;7VtbU+o6GP01zJzzIJNbb49QLoqAKLJV3kIbSqQlWFpAfv1OoQVK2W4djg5wkBkJK2may1qrXxLIYdObV306HjSEzdwcAvY8h0s5hBAgunyLkPcVAoEBV4jjczvGNkCbL1hSMEZDbrNJqmAghBvwcRq0xGjErCCFUd8Xs3SxvnDTdx1Th2WAtkXdLPrE7WCwQnWkbfBrxp1BcmeoGqscjyaF455MBtQWsy0Il3PY9IUIVilvbjI3Gr1kXFbXVf6Qu26Yz0bBZy5AcTOC96Rv04k9vynJtKrkcLHPXdcUrvCXmZioGrKIxB2f2lzeI8kbiZG8vii7M47qmQRsZHH3n+mv63ppcuOUWzP6yu87ZNDv5FBxoPdC7aFcbyCzMjXYe6P78mpaLex1UXcgG9stU9pqqDMR3LzVZk4HN9Vu17tt3SMOFsPhpGI+Nm6AERTuKlVSb7cWFfq2EF5I4MzryvrhYwDu/KLWKIF5WXUspSyayhuH0wmFt95UwPbTsII6leLNsKJ0vbcZo53aCwSjt5cqd0N+F4a4BXXUkm25uw1LRjcMdUV5lENV9KzJ2Go/eGG59m/U48AXQ7Y1RMbyJXNc2mNukVpDxxfhyN4ZqSXGolkA8tMg8FyZhDI5G/CAtcfUisZxJgUkseysxhM9ZX7A5ltQPMtVJjwW+O+yyFp16uqSWHMk5upsw18t0eVgi7trkMaacdZVb2glEzGz9rMMf8AyLcuyft8CAFxYdoIsU4wUy4wsy1SiZlm2Bg9hGfmAZXqWZQrWIVYuLDs9lmEAUiyDBGVopqgkS7M1eAjNlLi51A1jmuWQ6gYRwYTs0jYB1bdQJBlXk2UYU0BoPE+gPvW4KztRMKnLez6XuLUa2kIu6iVY2aDNfRnFcDGSuBv40XywIGD+1UQOLR85EgbLSl0+YldJhwswevZHBBdRsSC6D9y0Saac+H3Z+F4CmHRMe9yNLkiy/GhwdspLqLcHW41BAu/qUU4xl2FUweWO7EzJ47Yd5RVpDFiSFCzq4Ea5xo5yY859UrSjbrFeEgWnVH5ogQVu37y/shlodx6ctmxQsR4aw0ZXPNcHs6ZxJ4EgHBZcvzmuObC9KF2T+yfZJ1m6+eJ0H4evBdIZzmodp/osRx0V1dIzXNT7nnj37GcBtflAWXgPNfWeoOKT2beQqPXtghy94stU/iu0DLOn3dXwtawU1arwulldyKROhu7joPXLtGTLs0KMu3ZcGiRKWoMqyEgQKXviCawdrkD1zBXYpB6bLGfsCASooYsAj1OAMP0QBPjnFKiduQLbzJ9yi02OQoD4IsCTEOCeJfW3CVD/81pHI9m1jqUoFMLLWucE1zqEpFmm6xmWER1kWbYGD6GZceY+3xL2cXj87l7rxeOPQn0Zjzd+cJmTnHbsNXk1a/JUiV4Xkz9Bk09MPaYZwjBDM2zs2TddgwfxLGnvubq8KVtGZUX+cXj97onHxeuPQoREQTsiJD/o9R8cxGp7Di80gAG9HJGdoNcTlD6IRVo2pMDJuXyKZgl4EM/wgV6vfNbr+6wv/77b601h/3WX9EMDl7MWpNx5V2x/cedv9rXPP1/Sde0hKvoqUxHIQyXFVWzkk4Bj2xR1lAd7TtsQgXlN+Q84S/4H8UlEw2MITi7HbacRnGg/uNmYuMC+4EQH2eDE6sXWfwlOTi04UdMLUZw8NbZpRvbsNq7Bg3h27ge75amcmqNYhOrw4vOn4PMY7om3vs3ntQ98fvdrAJHPJyq6+PyJ+bwC0qdKmGRPlaCqZWm2Bg/imX7mPv+ZVemXXX53pZpR5NmsVLWv0hmCPNnZQQd5nA1dIFHz6h7zhEjJa/jLxJYfN7/UWOZt/eAFl38D&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);"><defs/><g><path d="M 0 374 C 0 167.45 167.45 0 374 0 C 580.55 0 748 167.45 748 374 C 748 580.55 580.55 748 374 748 C 167.45 748 0 580.55 0 374" fill="#4672c4" stroke="#939393" stroke-miterlimit="10" pointer-events="none"/><path d="M 53 373 C 53 194.61 197.61 50 376 50 C 554.39 50 699 194.61 699 373 C 699 551.39 554.39 696 376 696 C 197.61 696 53 551.39 53 373" fill="#ffc000" stroke="#939393" stroke-miterlimit="10" pointer-events="none"/><path d="M 94 377 C 94 221.26 220.26 95 376 95 C 531.74 95 658 221.26 658 377 C 658 532.74 531.74 659 376 659 C 220.26 659 94 532.74 94 377" fill="#538135" stroke="#939393" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(326.5,19.5)"><switch><foreignObject style="overflow:visible;" pointer-events="none" width="92" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 92px; white-space: nowrap; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;"><font style="font-size: 22px ; font-family: &quot;calibri&quot; ; color: #000000 ; direction: ltr ; letter-spacing: 0px ; line-height: 120% ; opacity: 1"><b>Capability<br /></b></font></div></div></foreignObject><text x="46" y="18" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">[Not supported by viewer]</text></switch></g><g transform="translate(320.5,62.5)"><switch><foreignObject style="overflow:visible;" pointer-events="none" width="106" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 108px; white-space: nowrap; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;"><font style="font-size: 22px ; font-family: &quot;calibri&quot; ; color: #000000 ; direction: ltr ; letter-spacing: 0px ; line-height: 120% ; opacity: 1"><b>Namespace<br /></b></font></div></div></foreignObject><text x="53" y="18" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">[Not supported by viewer]</text></switch></g><g transform="translate(336.5,106.5)"><switch><foreignObject style="overflow:visible;" pointer-events="none" width="74" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 76px; white-space: nowrap; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;"><font style="font-size: 22px ; font-family: &quot;calibri&quot; ; color: #000000 ; direction: ltr ; letter-spacing: 0px ; line-height: 120% ; opacity: 1"><b>Services<br /></b></font></div></div></foreignObject><text x="37" y="18" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">[Not supported by viewer]</text></switch></g><path d="M 138 381 C 138 248.45 245.45 141 378 141 C 510.55 141 618 248.45 618 381 C 618 513.55 510.55 621 378 621 C 245.45 621 138 513.55 138 381" fill="#c55a11" stroke="#939393" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(351.5,149.5)"><switch><foreignObject style="overflow:visible;" pointer-events="none" width="44" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 44px; white-space: nowrap; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;"><font style="font-size: 22px ; font-family: &quot;calibri&quot; ; color: #000000 ; direction: ltr ; letter-spacing: 0px ; line-height: 120% ; opacity: 1"><b>Pods<br /></b></font></div></div></foreignObject><text x="22" y="18" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">[Not supported by viewer]</text></switch></g><path d="M 182 382 C 182 272.65 270.65 184 380 184 C 489.35 184 578 272.65 578 382 C 578 491.35 489.35 580 380 580 C 270.65 580 182 491.35 182 382" fill="#a5a5a5" stroke="#939393" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(325.5,193.5)"><switch><foreignObject style="overflow:visible;" pointer-events="none" width="98" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 98px; white-space: nowrap; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;"><font style="font-size: 22px ; font-family: &quot;calibri&quot; ; color: #000000 ; direction: ltr ; letter-spacing: 0px ; line-height: 120% ; opacity: 1"><b>Containers<br /></b></font></div></div></foreignObject><text x="49" y="18" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">[Not supported by viewer]</text></switch></g><path d="M 220 384 C 220 295.08 292.08 223 381 223 C 469.92 223 542 295.08 542 384 C 542 472.92 469.92 545 381 545 C 292.08 545 220 472.92 220 384" fill="#7030a0" stroke="#939393" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(354.5,369.5)"><switch><foreignObject style="overflow:visible;" pointer-events="none" width="52" height="28" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 54px; white-space: nowrap; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;"><font style="font-size: 25px ; font-family: &quot;calibri&quot; ; color: #feffff ; direction: ltr ; letter-spacing: 0px ; line-height: 120% ; opacity: 1">Code<br /></font></div></div></foreignObject><text x="26" y="20" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">[Not supported by viewer]</text></switch></g><g transform="translate(339.5,236.5)"><switch><foreignObject style="overflow:visible;" pointer-events="none" width="70" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 72px; white-space: nowrap; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;"><font style="font-size: 22px ; font-family: &quot;calibri&quot; ; color: #000000 ; direction: ltr ; letter-spacing: 0px ; line-height: 120% ; opacity: 1"><b>Context<br /></b></font></div></div></foreignObject><text x="35" y="18" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">[Not supported by viewer]</text></switch></g><path d="M 262 385 C 262 318.73 315.73 265 382 265 C 448.27 265 502 318.73 502 385 C 502 451.27 448.27 505 382 505 C 315.73 505 262 451.27 262 385" fill="#cbffff" stroke="#939393" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(344.5,275.5)"><switch><foreignObject style="overflow:visible;" pointer-events="none" width="60" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 60px; white-space: nowrap; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;"><font style="font-size: 22px ; font-family: &quot;calibri&quot; ; color: #000000 ; direction: ltr ; letter-spacing: 0px ; line-height: 120% ; opacity: 1"><b>Events<br /></b></font></div></div></foreignObject><text x="30" y="18" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">[Not supported by viewer]</text></switch></g><path d="M 298 384.5 C 298 338.38 335.38 301 381.5 301 C 427.62 301 465 338.38 465 384.5 C 465 430.62 427.62 468 381.5 468 C 335.38 468 298 430.62 298 384.5" fill="#c00000" stroke="#939393" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(357.5,371.5)"><switch><foreignObject style="overflow:visible;" pointer-events="none" width="47" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 47px; white-space: nowrap; overflow-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;"><font style="font-size: 22px ; font-family: &quot;calibri&quot; ; color: #000000 ; direction: ltr ; letter-spacing: 0px ; line-height: 120% ; opacity: 1"><b>Code<br /></b></font></div></div></foreignObject><text x="24" y="18" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">[Not supported by viewer]</text></switch></g></g></svg>
+<!-- Generated by Microsoft Visio, SVG Export Composable_Architecture_Guidelines_Taxonomy.svg Taxonomy -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.6929in" height="8.26772in"
+		viewBox="0 0 841.89 595.276" xml:space="preserve" color-interpolation-filters="sRGB" class="st12">
+	<v:documentProperties v:langID="1033" v:metric="true" v:viewMarkup="false">
+		<v:custProps>
+			<v:cp v:nameU="WantAutoLayout" v:langID="1033" v:cal="0" v:val="VT0(1):26"/>
+			<v:cp v:nameU="CustomLayoutsAllowed" v:langID="1033" v:cal="0" v:val="VT0(0):26"/>
+			<v:cp v:nameU="WantAutoSize" v:langID="1033" v:cal="0" v:val="VT0(1):26"/>
+			<v:cp v:nameU="ShowDivider" v:langID="1033" v:cal="0" v:val="VT0(0):26"/>
+			<v:cp v:nameU="GridGranularity" v:langID="1033" v:cal="0" v:val="VT0(0.039370078740157):24"/>
+			<v:cp v:nameU="Theme" v:langID="1033" v:cal="0" v:val="VT4(Classic)"/>
+			<v:cp v:nameU="TOPLINESTYLE" v:langID="1033" v:cal="0" v:val="VT0(0):26"/>
+			<v:cp v:nameU="TOOLBARLOCATION" v:langID="1033" v:cal="0" v:val="VT0(4):26"/>
+		</v:custProps>
+		<v:userDefs>
+			<v:ud v:nameU="BOXWIDTH" v:val="VT0(1.1811023622047):24"/>
+			<v:ud v:nameU="BOXHEIGHT" v:val="VT0(0.59055118110236):24"/>
+			<v:ud v:nameU="HASSYNCCOPIES" v:val="VT0(1):26"/>
+			<v:ud v:nameU="OCNumDisplayFields" v:val="VT0(2):26"/>
+			<v:ud v:nameU="visPPO" v:val="VT0(2):26"/>
+			<v:ud v:nameU="DocShowPicture" v:prompt="" v:val="VT0(1):26"/>
+			<v:ud v:nameU="DocShowDivider" v:prompt="" v:val="VT0(1):26"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+			<v:ud v:nameU="msvNoSubprocess" v:prompt="" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#4672c4;stroke:#c7c8c8;stroke-width:0.25}
+		.st2 {fill:#ffc000;stroke:#c7c8c8;stroke-width:0.25}
+		.st3 {fill:#538135;stroke:#c7c8c8;stroke-width:0.25}
+		.st4 {fill:none;stroke:none;stroke-width:0.25}
+		.st5 {fill:#000000;font-family:Calibri;font-size:1.33333em;font-weight:bold}
+		.st6 {fill:#c55a11;stroke:#c7c8c8;stroke-width:0.25}
+		.st7 {fill:#a5a5a5;stroke:#c7c8c8;stroke-width:0.25}
+		.st8 {fill:#7030a0;stroke:#c7c8c8;stroke-width:0.25}
+		.st9 {fill:#feffff;font-family:Calibri;font-size:1.5em}
+		.st10 {fill:#cbffff;stroke:#c7c8c8;stroke-width:0.25}
+		.st11 {fill:#c00000;stroke:#c7c8c8;stroke-width:0.25}
+		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="2" v:groupContext="foregroundPage">
+		<v:custProps>
+			<v:cp v:nameU="Theme" v:type="1" v:format="Classic;Contemporary;Elegant;Notepad;Retro" v:invis="true" v:langID="1033"
+					v:cal="0" v:val="VT4(Classic)"/>
+			<v:cp v:nameU="ShapeClass" v:lbl="Shape Class" v:type="1" v:invis="true" v:langID="1033" v:cal="0"
+					v:val="VT4({52BC4E31-A33B-11d1-B2B9-006008BD347E})"/>
+		</v:custProps>
+		<v:userDefs>
+			<v:ud v:nameU="DocClass" v:prompt="Organization Chart Document" v:val="VT4({429428D1-A7E7-11d1-B2BD-006008BD347E})"/>
+			<v:ud v:nameU="AllowShapeMoveCallback" v:val="VT0(1):26"/>
+			<v:ud v:nameU="Theme" v:val="VT0(0):26"/>
+			<v:ud v:nameU="AllowCtrlMoveCallback" v:val="VT0(1):26"/>
+			<v:ud v:nameU="SCALECHANGEDEVENT" v:val="VT0(0):26"/>
+			<v:ud v:nameU="BOXWIDTH" v:val="VT0(-0.039370078740157):24"/>
+			<v:ud v:nameU="BOXHEIGHT" v:val="VT0(-0.039370078740157):24"/>
+			<v:ud v:nameU="OCNumDisplayFields" v:val="VT0(2):26"/>
+			<v:ud v:nameU="OrgChartStyle" v:prompt="" v:val="VT0(1):26"/>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>CAG &#62; Taxonomy</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Flowchart" v:index="0"/>
+		<g id="shape65-1" v:mID="65" v:groupContext="shape" transform="translate(146.133,-31.8525)">
+			<title>Circle</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M0 330.24 A265.039 265.039 0 1 1 530.08 330.24 A265.039 265.039 0 0 1 0 330.24 Z" class="st1"/>
+		</g>
+		<g id="shape67-3" v:mID="67" v:groupContext="shape" transform="translate(183.624,-67.9412)">
+			<title>Circle.67</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M0 366.32 A228.951 228.951 0 1 1 457.9 366.32 A228.951 228.951 0 1 1 -0 366.32 Z" class="st2"/>
+		</g>
+		<g id="shape68-5" v:mID="68" v:groupContext="shape" transform="translate(212.598,-94.2893)">
+			<title>Circle.68</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M0 395.43 A199.843 199.843 0 1 1 399.69 395.43 A199.843 199.843 0 0 1 0 395.43 Z" class="st3"/>
+		</g>
+		<g id="shape69-7" v:mID="69" v:groupContext="shape" transform="translate(319.471,-526.329)">
+			<title>Sheet.69</title>
+			<desc>Capability</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="91.7023" cy="582.062" width="183.41" height="26.427"/>
+			<rect x="0" y="568.849" width="183.405" height="26.427" class="st4"/>
+			<text x="58.53" y="586.86" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Capability</text>		</g>
+		<g id="shape72-10" v:mID="72" v:groupContext="shape" transform="translate(319.719,-495.432)">
+			<title>Sheet.72</title>
+			<desc>Namespace</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="91.7023" cy="582.062" width="183.41" height="26.427"/>
+			<rect x="0" y="568.849" width="183.405" height="26.427" class="st4"/>
+			<text x="53.14" y="586.86" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Namespace</text>		</g>
+		<g id="shape73-13" v:mID="73" v:groupContext="shape" transform="translate(319.968,-464.535)">
+			<title>Sheet.73</title>
+			<desc>Services</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="91.7023" cy="582.062" width="183.41" height="26.427"/>
+			<rect x="0" y="568.849" width="183.405" height="26.427" class="st4"/>
+			<text x="64.73" y="586.86" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Services</text>		</g>
+		<g id="shape74-16" v:mID="74" v:groupContext="shape" transform="translate(244.376,-121.293)">
+			<title>Circle.74</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M0 425.2 A170.079 170.079 0 0 1 340.16 425.2 A170.079 170.079 0 1 1 0 425.2 Z" class="st6"/>
+		</g>
+		<g id="shape75-18" v:mID="75" v:groupContext="shape" transform="translate(320.216,-433.638)">
+			<title>Sheet.75</title>
+			<desc>Pods</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="91.7023" cy="582.062" width="183.41" height="26.427"/>
+			<rect x="0" y="568.849" width="183.405" height="26.427" class="st4"/>
+			<text x="75.66" y="586.86" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Pods</text>		</g>
+		<g id="shape76-21" v:mID="76" v:groupContext="shape" transform="translate(275.328,-150.007)">
+			<title>Circle.76</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M0 454.66 A140.619 140.619 0 0 1 281.24 454.66 A140.619 140.619 0 1 1 0 454.66 Z" class="st7"/>
+		</g>
+		<g id="shape77-23" v:mID="77" v:groupContext="shape" transform="translate(320.465,-402.742)">
+			<title>Sheet.77</title>
+			<desc>Containers</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="91.7023" cy="582.062" width="183.41" height="26.427"/>
+			<rect x="0" y="568.849" width="183.405" height="26.427" class="st4"/>
+			<text x="55.83" y="586.86" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Containers</text>		</g>
+		<g id="shape78-26" v:mID="78" v:groupContext="shape" transform="translate(302.481,-174.922)">
+			<title>Circle.78</title>
+			<desc>Code</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="114.212" cy="481.064" width="199.88" height="171.317"/>
+			<path d="M0 481.06 A114.212 114.212 0 1 1 228.42 481.06 A114.212 114.212 0 0 1 0 481.06 Z" class="st8"/>
+			<text x="95.46" y="486.46" class="st9" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Code</text>		</g>
+		<g id="shape79-29" v:mID="79" v:groupContext="shape" transform="translate(320.714,-371.845)">
+			<title>Sheet.79</title>
+			<desc>Contexts</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="91.7023" cy="582.062" width="183.41" height="26.427"/>
+			<rect x="0" y="568.849" width="183.405" height="26.427" class="st4"/>
+			<text x="62.43" y="586.86" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Contexts</text>		</g>
+		<g id="shape80-32" v:mID="80" v:groupContext="shape" transform="translate(331.654,-204.094)">
+			<title>Circle.80</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M0 510.24 A85.0394 85.0394 0 0 1 170.08 510.24 A85.0394 85.0394 0 0 1 0 510.24 Z" class="st10"/>
+		</g>
+		<g id="shape81-34" v:mID="81" v:groupContext="shape" transform="translate(320.962,-344.678)">
+			<title>Sheet.81</title>
+			<desc>Events</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="91.7023" cy="582.062" width="183.41" height="26.427"/>
+			<rect x="0" y="568.849" width="183.405" height="26.427" class="st4"/>
+			<text x="69.73" y="586.86" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Events</text>		</g>
+		<g id="shape82-37" v:mID="82" v:groupContext="shape" transform="translate(357.293,-229.606)">
+			<title>Circle.82</title>
+			<desc>Code</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="59.4" cy="535.876" width="103.95" height="89.1"/>
+			<path d="M0 535.88 A59.4 59.4 0 1 1 118.8 535.88 A59.4 59.4 0 1 1 -0 535.88 Z" class="st11"/>
+			<text x="42.54" y="540.68" class="st5" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Code</text>		</g>
+	</g>
+</svg>
