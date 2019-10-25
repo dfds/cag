@@ -322,7 +322,7 @@ public Task GetDataAsync(
 
 Read more about async/await best practices [here](https://medium.com/@deep_blue_day/long-story-short-async-await-best-practices-in-net-1f39d7d84050)
 
-Read more about pitfals with IDisposable when using async/await [here](http://www.thebillwagner.com/blog/Item/2017-05-03-ThecuriouscaseofasyncawaitandIDisposable)
+Read more about pitfalls with IDisposable when using async/await [here](http://www.thebillwagner.com/blog/Item/2017-05-03-ThecuriouscaseofasyncawaitandIDisposable)
 
 ### Extension method patterns
 The general rule is: if a regular static method would suffice, avoid extension methods.
