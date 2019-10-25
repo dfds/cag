@@ -3,7 +3,7 @@ Monitoring Guidelines
 
 * [Basics](#basics)
 * [Prometheus](#prometheus)
-* [Alerting strategies][alerting strategies]
+* [Alerting strategies](#alerting-strategies)
 
 ## Basics
 TODO
