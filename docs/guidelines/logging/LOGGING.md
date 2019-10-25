@@ -25,3 +25,6 @@ https://www.elastic.co/products/elastic-cloud-kubernetes
 
 ### Index-per-capability
 TODO
+
+### Visualization - Grafana
+TODO

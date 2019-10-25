@@ -1,10 +1,13 @@
-Logging Guidelines
+Monitoring Guidelines
 ======================
 
 * [Basics](#basics)
 * [Prometheus](#prometheus)
 
 ## Basics
+TODO
+
+### Alerts
 TODO
 
 ## Prometheus
