@@ -6,7 +6,7 @@ Monitoring Guidelines
 * [Alerting strategies](#alerting-strategies)
 
 ## Basics
-TODO
+https://stackify.com/asp-net-performance-monitoring-developers-guide/
 
 ## Prometheus
 TODO

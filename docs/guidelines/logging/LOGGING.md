@@ -6,16 +6,16 @@ Logging Guidelines
 * [ElasticSearch](#elasticsearch)
 
 ## Basics
-TODO
+https://engineering.grab.com/structured-logging
 
 ### LogLevel
-TODO
+DFDS supports the LogLevels defined [here](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.loglevel?view=dotnet-plat-ext-3.0)
 
 ### LogTypes
-TODO
+DFDS supports the LogTypes defined [here](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.eventing.reader.eventlogtype?view=netframework-4.8)
 
 ## SeriLog
-TODO
+https://github.com/serilog/serilog
 
 ### Sinks
 https://github.com/serilog/serilog-sinks-elasticsearch
