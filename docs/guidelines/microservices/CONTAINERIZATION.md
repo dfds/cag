@@ -35,3 +35,6 @@ Note: It is possible to create containers that launch more proccesses, but this 
 
 ## Optimizing container for production
 https://haydenjames.io/how-to-create-optimized-docker-images-for-production/
+
+## Build your code in your container
+TODO
