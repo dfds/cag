@@ -45,7 +45,7 @@ To commit the PR to the repo either use GitHub's ["Squash and Merge"](https://gi
 :grey_exclamation: The *structure* of the code that we write and the *tools* that we use to write the code.
 
 ### Repos
-To create a new repo in the https://github.com/dfds/ org, contact [Development Excellence](https://slack.com/app_redirect?channel=dev-excellence).
+To create a new repo in the https://github.com/dfds/ org, contact [Development Excellence](https://slack.com/app_redirect?channel=dev-peer-support).
 
 ### Branch strategy
 In general:
